@@ -1,0 +1,85 @@
+.navbar{
+ background: black;
+}
+.nav-link , .navbar-brand{
+ color: #f4f4f4;
+ cursor: pointer;
+}
+.nav-link{
+ margin-right: 1em !important;
+}
+.nav-link:hover{
+ background: #f4f4f4;
+ color: #f97300;
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler{
+  background:#fff !important;
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.bg-dark{
+background-color:#343a40!important
+}
+.bg-primary{
+background-color:#343a40!important
+}
+/*header style*/
+.header{
+ background-image: url('../images/bg.jpg');
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
+
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+.description h1{
+ color:#FFF ;
+}
+.description p{
+	 color:#f99999;
+	 font-size: 20px;
+	 width: 50%;
+	 line-height: 1;
+}
+.present {
+	margin-top: -1rem;
+}
+.present img{
+	border-radius: 20px; /* Радиус скругления */
+    border: 1px solid grey; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+
+.block{
+	line-height: 0.8;
+	padding-top: 17px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border: 1px solid #e5e8ec;
+	background: #fbfdff;
+	white-space: pre-wrap;
+	margin: 10px 10px 10px 10px;
+	font-family: 'Roboto', Arial,sans-serif!important;
+	color: #000;
+}
+.block strong{
+	font-size:1.5rem;
+}
+.block li{
+	line-height: 1.2;
+}
+.first h4{
+	margin: 40px 0px 0px 10px!important;
+}
+.diff {
+	line-height: 0;
+}
